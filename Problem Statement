@@ -1,0 +1,56 @@
+📊 Customer Sales Analytics – SQL Case Study
+🧩 Problem Statement
+You are a Database Administrator working with customer sales data for a retail business. You’ve been given a sample dataset due to privacy restrictions, but it's sufficient to perform insightful analysis using SQL. Your objectives include analyzing sales, profit, marketing spend, product trends, and cost efficiency to help management make informed decisions.
+
+You will work on three primary tables: FactTable, ProductTable, and LocationTable. Using SQL, you will solve 29 real-world tasks that involve filtering, aggregation, joins, stored procedures, functions, transactions, ranking, and advanced operations like roll-ups and conditionals.
+
+🗃️ Dataset Overview
+1. FactTable (4,200 rows)
+Contains business metrics and transactions:
+
+Date, ProductID, Profit, Sales, Margin, COGS, Total Expenses, Marketing, Inventory, Budget Profit, Budget COGS, Budget Margin, Budget Sales, Area Code
+
+2. ProductTable (13 rows)
+Details about each product:
+
+Product Type, Product, ProductID, Type
+
+3. LocationTable (156 rows)
+Geographical and market information:
+
+Area Code, State, Market, Market Size
+
+✅ Tasks Covered
+#	Task Description
+1	Count the number of states in the LocationTable
+2	Count the number of regular-type products
+3	Find marketing spend on ProductID = 1
+4	Find the minimum sales value
+5	Get the maximum COGS
+6	Get product details where Product Type = 'Coffee'
+7	Show records where Total Expenses > 40
+8	Average sales in Area Code = 719
+9	Total profit from Colorado
+10	Average inventory per Product ID
+11	Show states in alphabetical order
+12	Show avg budget where avg budget margin > 100
+13	Total sales on 2010-01-01
+14	Average total expense per Product ID and Date
+15	Display combined data from all 3 tables
+16	Sales-wise dense ranking (no gaps)
+17	State-wise profit and sales
+18	State-wise profit and sales with product name
+19	Increase sales by 5% and show new sales
+20	Max profit with Product ID and Product Type
+21	Create a Stored Procedure (input: Product Type)
+22	Label records as 'Profit' or 'Loss' based on Total Expenses
+23	Weekly sales with roll-up aggregation
+24	Use UNION and INTERSECT on Area Code attribute
+25	Create a User Defined Function to fetch products by type
+26	Update Product Type 'Coffee' to 'Tea' for Product ID 1 and rollback
+27	Sales between total expenses of 100 and 200
+28	Delete 'Regular' product type records
+29	Show ASCII value of the 5th character in Product column
+
+🚀 Technologies Used
+SQL (Structured Query Language)
